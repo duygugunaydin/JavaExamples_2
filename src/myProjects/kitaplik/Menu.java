@@ -1,4 +1,4 @@
-package miniProjeler.kitaplik;
+package myProjects.kitaplik;
 
 import java.util.Scanner;
 

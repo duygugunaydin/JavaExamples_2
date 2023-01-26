@@ -1,4 +1,4 @@
-package miniProjeler.kitaplik;
+package myProjects.kitaplik;
 
 import java.util.ArrayList;
 import java.util.List;

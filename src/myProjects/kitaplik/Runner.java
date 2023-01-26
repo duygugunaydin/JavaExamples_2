@@ -1,4 +1,4 @@
-package miniProjeler.kitaplik;
+package myProjects.kitaplik;
 
 public class Runner {
     public static void main(String[] args) throws InterruptedException {
