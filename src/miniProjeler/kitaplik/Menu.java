@@ -1,4 +1,4 @@
-package miniProjeler.kitapci;
+package miniProjeler.kitaplik;
 
 import java.util.Scanner;
 

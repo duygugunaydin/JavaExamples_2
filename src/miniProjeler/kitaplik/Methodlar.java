@@ -1,4 +1,4 @@
-package miniProjeler.kitapci;
+package miniProjeler.kitaplik;
 
 public class Methodlar extends Menu {
 
