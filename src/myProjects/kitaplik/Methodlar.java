@@ -228,6 +228,7 @@ public class Methodlar extends Menu {
 
         System.out.println("Kitaplar sorgulaniyor...");
         Thread.sleep(2000);
+
         if (kitapList.isEmpty())
             System.out.println("Kitap listesinde kitap bulunmamaktadir.");
         else {
@@ -260,8 +261,14 @@ public class Methodlar extends Menu {
 
     public void cikisMethodu6() throws InterruptedException {
 
-        System.out.println("\n\nSistemden Cikis Yapiliyor...");
-        Thread.sleep(1000);
+        System.out.print("\n\nSistemden Cikis Yapiliyor ");
+        Thread.sleep(500);
+        System.out.print(" .");
+        Thread.sleep(500);
+        System.out.print(".");
+        Thread.sleep(500);
+        System.out.println(".");
+        Thread.sleep(200);
         System.out.println("\n**********Sistemden Cikis Yapildi*************");
         System.exit(0);
     }
