@@ -16,17 +16,6 @@ public class soru {
    6- çıkış
     */
 
-    /*
-    eksikler : iki tane ayni isimli ama farkli numarali kitap kaydi aramak istersem isim bilgisi ile (methodno:3)
-               sadece bir tane sonuc veriyo
-               tum sonucları vemesni istersem negatif sonucu da veriyor.
 
-               ayrica bir fiyat kontrol methodu yapmaya calistim ama olmadi..
-               /*
-               public double fiyatKontrolMethodu(){
-
-                }
-                * /
-     */
 
 }

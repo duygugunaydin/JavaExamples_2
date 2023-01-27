@@ -1,4 +1,4 @@
-package laptp;
+package EkipLaptopProjesi;
 
 import java.util.Scanner;
 
@@ -149,23 +149,21 @@ public class Methodlar extends Calculation {
         getRam();
         getSize();
         getRenk();
-
         bilgFiyat = secilenCPUFiyat+secilenSizeFiyat+secilenRamFiyat+secilenRenkFiyat;
 
         Calculation calculation=new Calculation(++lapTopNumarasi,secilenMarkaAdi,
                                                    secilenCPUAdi,secilenSizeAdi,
                                                    secilenRamAdi,secilenRenkAdi);
         bilgList.add(calculation);
-
         for (Calculation each:bilgList
         ) {
             System.out.println(each);
         }
+
         toplamFiyat += bilgFiyat;
 
 
         System.out.println("Alisverise devam etmek ister misiniz: E/H");
-
         String secim= scan.nextLine();
 
         if(secim.equalsIgnoreCase("e")){
@@ -174,7 +172,6 @@ public class Methodlar extends Calculation {
             System.out.println("Odeme sayfasina yonlendiriliyorsunuz ...");
             System.out.println("Lutfen odemeyi yapiniz\n" + "Toplam odeme: "+ toplamFiyat);
         }
-
 
     }
 }

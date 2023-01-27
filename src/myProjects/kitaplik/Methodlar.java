@@ -73,7 +73,7 @@ public class Methodlar extends Menu {
             }
         }while (ktpNo==0);
 
-        boolean kontrolvarMi = true;
+        boolean kontrolvarMi = false;
 
         System.out.println("Kontrol ediliyor...");
         Thread.sleep(500);
@@ -81,9 +81,8 @@ public class Methodlar extends Menu {
         for (int i = 0; i <kitapList.size() ; i++) {
             if (kitapList.get(i).getKitapNo() == ktpNo) {
                 System.out.println("\nAradiginiz kitap bilgileri : \n" + kitapList.get(i));
-                break;
-            }else
-                kontrolvarMi=false;
+                kontrolvarMi=true;
+            }
         }
         if (!kontrolvarMi)
             System.out.println("Aradiginiz numaraya kayitli kitap bilgisi yok.\n");
@@ -121,27 +120,26 @@ public class Methodlar extends Menu {
         String ktpIsmi = scan.nextLine();
         System.out.print("Lutfen aradiginiz kitabin yazarini giriniz : ");
         String yzrIsmi = scan.nextLine();
+        System.out.println("");
 
-        boolean kitapVarMi = true;
+        boolean kitapVarMi = false;
 
         for (int i = 0; i <kitapList.size() ; i++) {
             if (kitapList.get(i).getYazarAdi().equalsIgnoreCase(yzrIsmi)
                 &&
                 kitapList.get(i).getKitapAdi().equalsIgnoreCase(ktpIsmi)) {
-                System.out.println("Aradiginiz kitap bilgileri : " + kitapList.get(i)+"\n");
+                System.out.println("Aradiginiz kitap bilgileri : " + kitapList.get(i));
                 kitapVarMi = true;
-                break;
-            }else
-                kitapVarMi=false;
+            }
         }
         if (!kitapVarMi) {
             System.out.println("Kayitlarda " + yzrIsmi +"'a ait " + ktpIsmi + " isimli kitap bilgisi yok.\n");
         }
 
         do {
-            System.out.print("Baska aramak yapmak icin  >> 1\n" +
-                             "Menuye donmek icin        >> 2\n" +
-                             "Cikis yapmak icin         >> 3'e basiniz  :  ");
+            System.out.print( "\nBaska aramak yapmak icin  >> 1\n" +
+                                "Menuye donmek icin        >> 2\n" +
+                                "Cikis yapmak icin         >> 3'e basiniz  :  ");
             try {
                 secim=scan.nextInt();
                 if (secim==1) {
@@ -184,7 +182,7 @@ public class Methodlar extends Menu {
         System.out.println("");
         System.out.println("Kayitlar kontrol ediliyor...");
         Thread.sleep(1000);
-        boolean kontrolvarMi = true;
+        boolean kontrolvarMi = false;
         for (int i = 0; i <kitapList.size() ; i++) {
             if (kitapList.get(i).getKitapNo() == ktpNo) {
                 System.out.println(kitapList.get(i) + " KAYDI BASARI ILE SILINDI\n");
@@ -192,9 +190,8 @@ public class Methodlar extends Menu {
                 System.out.println("Yeni kitap listesi : ");
                 tumKitaplariListelemeMethodu5();
                 System.out.println("");
-                break;
-            }else
-                kontrolvarMi=false;
+                kontrolvarMi=true;
+            }
         }
         if (!kontrolvarMi)
             System.out.println("Aradiginiz numaraya kayitli kitap bilgisi yok.\n");

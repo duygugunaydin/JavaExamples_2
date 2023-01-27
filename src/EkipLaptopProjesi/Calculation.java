@@ -1,4 +1,4 @@
-package laptp;
+package EkipLaptopProjesi;
 
 import java.util.ArrayList;
 import java.util.List;
