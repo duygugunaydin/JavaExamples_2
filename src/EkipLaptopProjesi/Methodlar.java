@@ -153,7 +153,7 @@ public class Methodlar extends Calculation {
 
         Calculation calculation=new Calculation(++lapTopNumarasi,secilenMarkaAdi,
                                                    secilenCPUAdi,secilenSizeAdi,
-                                                   secilenRamAdi,secilenRenkAdi);
+                                                   secilenRamAdi,secilenRenkAdi,bilgFiyat);
         bilgList.add(calculation);
         for (Calculation each:bilgList
         ) {
@@ -168,6 +168,7 @@ public class Methodlar extends Calculation {
 
         if(secim.equalsIgnoreCase("e")){
             menu();
+
         }else {
             System.out.println("Odeme sayfasina yonlendiriliyorsunuz ...");
             System.out.println("Lutfen odemeyi yapiniz\n" + "Toplam odeme: "+ toplamFiyat);
