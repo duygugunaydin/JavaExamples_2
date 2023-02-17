@@ -1,4 +1,4 @@
-package miniProjeler.ogrenciYonetimPlatformuProjesi__BİTMEDİ__;
+package myProjects.ogrenciYonetimPlatformuProjesi_bitmedi_;
 
 import java.util.ArrayList;
 import java.util.List;

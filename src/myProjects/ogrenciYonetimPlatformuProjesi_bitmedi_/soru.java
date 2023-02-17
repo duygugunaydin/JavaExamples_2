@@ -1,4 +1,4 @@
-package miniProjeler.ogrenciYonetimPlatformuProjesi__BİTMEDİ__;
+package myProjects.ogrenciYonetimPlatformuProjesi_bitmedi_;
 
 public class soru {
     /*
@@ -26,6 +26,5 @@ public class soru {
          3. ARAMA VE SİLME İŞLEMLERİ KİMLİK NO YA GÖRE YAPILMALIDIR.
             NOT: PROJEYİ YAPARKEN MÜMKÜN OLAN EN KISA KODLARI YAZMAK İÇİN
             NESNE YÖNELİMLİ PROGRAMLAMANIN BİZE SAĞLADIĞI İMKANLARI KULLANMAYA DİKKAT EDİNİZ.
-
      */
 }

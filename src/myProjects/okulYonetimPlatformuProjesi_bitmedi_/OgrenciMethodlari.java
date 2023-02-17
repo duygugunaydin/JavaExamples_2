@@ -1,6 +1,4 @@
-package miniProjeler.okulYonetimPlatformuProjesi__BİTMEDİ__;
-
-import miniProjeler.ogrenciYonetimPlatformuProjesi__BİTMEDİ__.Ogrenci;
+package myProjects.okulYonetimPlatformuProjesi_bitmedi_;
 
 import java.util.*;
 

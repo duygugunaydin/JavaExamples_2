@@ -1,6 +1,6 @@
-package miniProjeler.okulYonetimPlatformuProjesi__BİTMEDİ__;
+package myProjects.okulYonetimPlatformuProjesi_bitmedi_;
 
-import miniProjeler.ogrenciYonetimPlatformuProjesi__BİTMEDİ__.Ogrenci;
+
 
 import java.util.Scanner;
 

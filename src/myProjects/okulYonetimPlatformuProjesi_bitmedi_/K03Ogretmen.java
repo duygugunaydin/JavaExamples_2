@@ -1,4 +1,4 @@
-package miniProjeler.okulYonetimPlatformuProjesi__BİTMEDİ__;
+package myProjects.okulYonetimPlatformuProjesi_bitmedi_;
 
 public class K03Ogretmen extends K01Kisi {
     /*
